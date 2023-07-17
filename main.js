@@ -96,7 +96,7 @@ assign their values according to your own country (population in millions)
 Log their values to the console. */
 
 let country = "United States"
-let Continent = "North America"
+const Continent = "North America"
 const Population = "331.9"
 
 console.log (country)
