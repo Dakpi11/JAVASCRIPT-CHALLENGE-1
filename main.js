@@ -1,4 +1,4 @@
-CHALLENGE #1
+/* CHALLENGE #1
 Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / (height * height) (mass in kg and height in meters).
 
 Your task is to write some code to help them:
@@ -89,3 +89,16 @@ Predict the result of these 5 operations without executing them:
 Execute the operations to check if you were right
 
 */
+
+/* LECTURE: Values and Variables
+Declare variables called 'country', 'continent' and 'population' and
+assign their values according to your own country (population in millions)
+Log their values to the console. */
+
+let country = "United States"
+let Continent = "North America"
+const Population = "331.9"
+
+console.log (country)
+console.log (continent)
+console.log (Population)
