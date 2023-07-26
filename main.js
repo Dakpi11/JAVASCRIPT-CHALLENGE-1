@@ -31,8 +31,10 @@ BONUS: Create a boolean variable markHigherBMI containing information about whet
 
 TEST DATA: Marks weighs 78 kg and is 1.69 m tall. John weighs 92 kg and is 1.95 m tall. */
 
-/* 
 
+
+
+/*
 JavaScript Fundamentals – Part 1
 
 LECTURE: Values and Variables
@@ -95,10 +97,60 @@ Declare variables called 'country', 'continent' and 'population' and
 assign their values according to your own country (population in millions)
 Log their values to the console. */
 
-let country = "United States"
-const Continent = "North America"
-const Population = "331.9"
+let country = "United States";
+const continent = "North America";
+let population = 332;
 
-console.log (country)
-console.log (continent)
-console.log (Population)
+console.log(country);
+console.log(continent);
+console.log(population);
+
+const isIsland = "false"
+
+const language = "English"
+
+console.log(isIsland);
+console.log(language);
+
+/*Based on the variables you created, create a new variable 'description'
+which contains a string with this format: 'Portugal is in Europe, and its 11 million
+people speak portuguese'*/
+
+const description = "United States is in North America and the People speak English."
+
+/* LECTURE: Strings and Template Literals
+Recreate the 'description' variable from the last assignment, this time
+using the template literal syntax*/
+
+let United= `${country} is in ${continent}, and its ${population} people speaks ${language}`;
+
+console.log(United)
+
+let States=`${country}'s population is above average`;
+
+console.log(States);
+
+/* LECTURE: Type Conversion and Coercion
+Predict the result of these 5 operations without executing them:
+'9' - '5';
+'19' - '13' + '17';
+'19' - '13' + 17;
+'123' < 57;
+5 + 6 + '4' + 9 - 4 - 2;
+Execute the operations to check if you were right.
+
+Prediction
+
+'9' - '5'; 4
+'19' - '13' + '17'; 11
+123' < 57; False
+5 + 6 + '4' + 9 - 4 - 2; 18
+
+*/
+
+
+
+console.log(9-5)
+console.log(19-13+17)
+console.log(123<57)
+console.log(5+6+4+9-4-2)
