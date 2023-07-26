@@ -48,12 +48,6 @@ let markHigherBMI = (27>24)
 console.log(markHigherBMI)
 
 
-
-
-
-
-
-
 /*
 JavaScript Fundamentals – Part 1
 
