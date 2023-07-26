@@ -31,6 +31,26 @@ BONUS: Create a boolean variable markHigherBMI containing information about whet
 
 TEST DATA: Marks weighs 78 kg and is 1.69 m tall. John weighs 92 kg and is 1.95 m tall. */
 
+let massMark= 78;
+const heightMark= 1.69;
+
+let massJohn= 92;
+const heightJohn= 1.95;
+
+BMIMark = massMark/(heightMark * heightMark) 
+BMIJohn = massJohn/(heightJohn * heightJohn)
+
+console.log (BMIMark) 
+console.log (BMIJohn)
+
+let markHigherBMI = (27>24)
+
+console.log(markHigherBMI)
+
+
+
+
+
 
 
 
@@ -113,7 +133,8 @@ country. The variable should hold a Boolean value. Also declare a variable
 Log the types of 'isIsland', 'population', 'country' and 'language'
 to the console*/
 
-const isIsland = "false";
+const isIsland = (0>1)
+
 
 /* Question 3
 Set the value of 'language' to the language spoken where you live (some
