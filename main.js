@@ -127,4 +127,11 @@ Set the value of 'language' to the language spoken where you live (some
     console.log(isIsland);
     console.log(language);
     
+    /* Question 4 
+    Based on the variables you created, create a new variable 'description'
+    which contains a string with this format: 'Portugal is in Europe, and its 11 million
+    people speak portuguese'*/
+    
+    const description = "United States is in North America and its 11 million People speak English."
+    
     
