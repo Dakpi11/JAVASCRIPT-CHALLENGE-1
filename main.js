@@ -134,4 +134,19 @@ Set the value of 'language' to the language spoken where you live (some
     
     const description = "United States is in North America and its 11 million People speak English."
     
+    /* 
+    Question 5 
+    
+    LECTURE: Strings and Template Literals
+    Recreate the 'description' variable from the last assignment, this time
+    using the template literal syntax*/
+    
+    let United= `${country} is in ${continent}, and its ${population} people speaks ${language}`;
+    
+    console.log(United)
+    
+    let States=`${country}'s population is above average`;
+    
+    console.log(States);
+    
     
