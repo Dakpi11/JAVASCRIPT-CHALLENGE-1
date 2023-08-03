@@ -43,7 +43,7 @@ BMIJohn = massJohn/(heightJohn * heightJohn)
 console.log (BMIMark) 
 console.log (BMIJohn)
 
-let markHigherBMI = (27>24)
+let markHigherBMI = false;
 
 console.log(markHigherBMI)
 
@@ -127,7 +127,7 @@ country. The variable should hold a Boolean value. Also declare a variable
 Log the types of 'isIsland', 'population', 'country' and 'language'
 to the console*/
 
-const isIsland = (0>1)
+const isIsland = false
 
 
 /* Question 3
@@ -158,7 +158,7 @@ Set the value of 'language' to the language spoken where you live (some
     
     let United= `${country} is in ${continent}, and its ${population} people speaks ${language}`;
     
-    console.log(United)
+    console.log(United);
     
     let States=`${country}'s population is above average`;
     
@@ -177,16 +177,16 @@ Set the value of 'language' to the language spoken where you live (some
     
     Prediction
     
-    '9' - '5'; 4
-    '19' - '13' + '17'; 11
-    123' < 57; False
-    5 + 6 + '4' + 9 - 4 - 2; 18
+    // '9' - '5' 
+    Ans; 4
+    '19' - '13' + '17';  
+    Ans;11
+    123' < 57 
+    Ans; False 
+    5 + 6 + '4' + 9 - 4 - 2 ;
+    Ans; 18
     */
     
-    console.log(9-5)
-    console.log(19-13+17)
-    console.log(123<57)
-    console.log(5+6+4+9-4-2)
-
+ 
 
 
