@@ -147,9 +147,9 @@ Set the value of 'language' to the language spoken where you live (some
     change, and which might change?). Then, change these variables to const.
     Try to change one of the changed variables now, and observe what happens.*/
 
-  language = "English";
+  language = ("English")
 
-console.log(typeof(language))
+
     
     /* Question 4 
     Based on the variables you created, create a new variable 'description'
