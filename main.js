@@ -111,15 +111,15 @@ Declare variables called 'country', 'continent' and 'population' and
 assign their values according to your own country (population in millions)
 Log their values to the console. */
 
-let couNTRY = "United States";
+let country = "United States";
 
-const conTINENT = "North America";
+const continent = "North America";
 
-let poPULATION = 332;
+let population = 332;
 
-console.log(couNTRY);
-console.log(conTINENT);
-console.log(poPULATION);
+console.log(country);
+console.log(continent);
+console.log(population);
 /*Question 2 
 Declare a variable called 'isIsland' and set its value according to your
 country. The variable should hold a Boolean value. Also declare a variable
@@ -129,15 +129,15 @@ to the console*/
 
 const isIsland = false
  
-let lanGUAGE; 
+let language; 
 
 console.log(typeof(isIsland));
 
 console.log(typeof(population));
 
-console.log(typeof(couNTRY));
+console.log(typeof(country));
 
-console.log(typeof(lanGUAGE));
+console.log(typeof(language));
 
 
 /* Question 3
@@ -147,7 +147,7 @@ Set the value of 'language' to the language spoken where you live (some
     change, and which might change?). Then, change these variables to const.
     Try to change one of the changed variables now, and observe what happens.*/
 
-  lanGUAGE = "english";
+  language = "english";
 
 
     
@@ -165,13 +165,13 @@ Set the value of 'language' to the language spoken where you live (some
     Recreate the 'description' variable from the last assignment, this time
     using the template literal syntax*/
     
-    let uNited = `${couNTRY} is in ${conTINENT}, and its ${poPULATION} people speaks ${lanGUAGE}`;
+    let united = `${country} is in ${continent}, and its ${population} people speaks ${language}`;
     
-    console.log(uNited);
+    console.log(united);
     
-    let sTATES=`${couNTRY}'s population is above average`;
+    let states=`${country}'s population is above average`;
     
-    console.log(sTATES);
+    console.log(states);
     
     /* Question 6
     
