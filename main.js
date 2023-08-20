@@ -196,6 +196,6 @@ Set the value of 'language' to the language spoken where you live (some
     Ans; 18
     */
     
- 
+ console.log 
 
 
